@@ -21,6 +21,17 @@ if sys.platform.startswith('win'):
     from distutils.command.bdist_wininst import bdist_wininst as _bdist_wininst
 
 
+
+
+if sys.argv[-1] == 'publish':
+    os.system('python setup.py sdist')
+    os.system('twine upload dist/*')
+    os.system('rm -rf dist')
+    os.system('rm -rf *.egg-info')
+    sys.exit()
+    
+    
+    
 def _find_vcvarsall(version):
     vsbase = msvc9compiler.VS_BASE % version
     productdir = None
@@ -306,3 +317,6 @@ setup(
     include_package_data=True,
     zip_safe=False
 )
+
+
+
