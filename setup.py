@@ -270,9 +270,9 @@ elif sys.platform.startswith('linux'):
     ])
 
 setup(
-    name='pocketsphinx',
+    name='pocketsphinx2',
     version='0.1.15',
-    description='Python interface to CMU Sphinxbase and Pocketsphinx libraries',
+    description='Python interface to CMU Sphinxbase and Pocketsphinx libraries (fixed MacOS and Linux (Ubuntu 18.04) installation problem.If you wanna install, the original packaget maybe the right choose, if you have problems with original packaget, then try out this one',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Dmitry Prazdnichnov',
