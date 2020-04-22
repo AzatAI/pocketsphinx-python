@@ -1,5 +1,12 @@
 # Pocketsphinx Python
 
+[DO NOT INSTALL FROM PYPI IT HAS SOME PROBLEMS, JUST INSTALL FROM HERE]
+1. FIRST INSTALL `swig`
+2. git clone https://github.com/AzatAI/pocketsphinx-python3
+3. pip install ./shifthelper
+
+
+
 [![Latest Version](https://img.shields.io/pypi/v/pocketsphinx.svg?maxAge=86400)](https://pypi.org/project/pocketsphinx)
 [![Development Status](https://img.shields.io/pypi/status/pocketsphinx.svg?maxAge=86400)](https://pypi.org/project/pocketsphinx)
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/pocketsphinx.svg?maxAge=86400)](https://pypi.org/project/pocketsphinx)
