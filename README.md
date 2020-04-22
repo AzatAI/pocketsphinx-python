@@ -2,8 +2,8 @@
 
 [DO NOT INSTALL FROM PYPI IT HAS SOME PROBLEMS, JUST INSTALL FROM HERE]
 1. FIRST INSTALL `swig`
-2. git clone https://github.com/AzatAI/pocketsphinx-python3
-3. pip install ./shifthelper
+2. git clone --recursive https://github.com/AzatAI/pocketsphinx-python
+3. pip install ./pocketsphinx-python
 
 
 
